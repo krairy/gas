@@ -20,7 +20,7 @@ data_path="../gas.csv"
 ETH_COLOR = '#C9B3F4'
 LINEA_COLOR = '#61DFFF'
 
-MIN_MAX_RANGE = (datetime.datetime(2024,2,21), 
+MIN_MAX_RANGE = (datetime.datetime(2024,5,1), # beginning of the tracking history, replace with your own
                  datetime.datetime.now()+datetime.timedelta(2))
 PRE_SELECTED_DATES = (datetime.datetime.now()-datetime.timedelta(8), 
                  datetime.datetime.now()+datetime.timedelta(1))
