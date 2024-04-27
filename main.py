@@ -5,7 +5,7 @@ from plotly.subplots import make_subplots
 import pandas as pd
 import datetime
 
-### from streamlit_autorefresh import st_autorefresh
+from streamlit_autorefresh import st_autorefresh
 
 from functions import get_n_rows, get_data
 
@@ -143,5 +143,5 @@ fig.update_annotations(
 
 st.plotly_chart(fig, theme="streamlit", use_container_width=True)
 
-### st_autorefresh(interval=5 * 60 * 1000, key="datarefresh")
+st_autorefresh(interval=5 * 60 * 1000, key="datarefresh")
 
